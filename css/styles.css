@@ -9878,6 +9878,7 @@ h3 {
 .jumbotron {
   background-color: #d5e7f9;
   margin: 5px;
+  padding: 2rem 2rem;
 }
 
 .card {
