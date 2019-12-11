@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<link rel="stylesheet" href="./css/styles.css" />
+		<title>MovieInfo</title>
+	</head>
+	<body class="container">
+		<nav class="nav">
+			<div class="container">
+				<div class="navbar-header">
+					<a class="nav-brand" href="./index.html">MovieInfo</a>
+				</div>
+			</div>
+		</nav>
+		<div class="container">
+			<div class="well" id="movie"></div>
+		</div>
+		<script
+			src="http://code.jquery.com/jquery-3.4.1.min.js"
+			crossorigin="anonymous"
+		></script>
+		<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+		<script src="./js/script.js"></script>
+		<script>
+			getMovie();
+		</script>
+	</body>
+</html>
